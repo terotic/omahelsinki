@@ -28,6 +28,8 @@ $omaWrapperPadding: 4rem 0 8rem;
 
 
 .navbar-brand {
+  font-weight: 700;
+  
   svg {
     height: 36px;
   }
@@ -113,7 +115,11 @@ $omaWrapperPadding: 4rem 0 8rem;
   text-align: center;
 
   @include media-breakpoint-up(md) {
-    min-height: $spacer * 22;
+    min-height: $spacer * 16;
+  }
+
+  @include media-breakpoint-up(lg) {
+    min-height: $spacer * 20;
   }
 }
 
